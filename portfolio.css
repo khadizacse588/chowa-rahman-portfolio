@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#home-section {
+  width: 100%;
+  height: 255px;
+  background-color: #080808;
+}
+
+nav {
+  width: 100%;
+  line-height: 30px;
+  padding: 0px 30px;
+  position: fixed;
+  background-color: #191a1d;
+}
+
+nav .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(218, 17, 17);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+nav .logo p {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 5px;
+  padding: 5px 5px;
+}
+
+nav ul li a:active, a:hover {
+  background-color: #191a1d;
+  border-radius: 2px;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.image {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.para {
+  width: 70%;
+  float: right;
+}
+
+.para p{
+  margin-left: 50px;
+  color: rgb(57, 130, 163);
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 10px;
+  
+}
+
+.image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+
+}
+
+
+.image a {
+  text-decoration: none;
+  background-color: #191a1d;
+  color: rgb(216, 21, 21);
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+/* Skills Section */
+
+.skill-section{
+
+  background: #080808;
+  padding: 25px 0px;
+  
+}
+.skill-section h2{
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 35px;
+  padding-top: 5px;
+}
+
+.skill-section h2::after{
+      content: "";
+      display: block;
+      height: 3px;
+      background: white;
+      width: 150px;
+      margin: auto;
+      margin-top: 5px;
+}
+
+.skill-section p{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.skill-section h3{
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+.skill-section h3::after{
+      content: "";
+      display: block;
+      height: 3px;
+      background: white;
+      width: 250px;
+      margin: auto;
+      margin-top: 5px;
+}
+
+.language ul{
+  margin-left: 150px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Education Section */
+
+.education-section{
+  background: #080808;
+  color: white;
+  padding: 25px 0px;
+}
+
+.education-section .education h2{
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  padding-top: 15px;
+}
+
+.education-section .education h1{
+  
+  color: white;
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+.education-section .education h3{
+  
+  margin-left: 100px;
+  color: white;
+  font-size: 30px;
+  margin-right: 50px;
+}
+.education-section .education h4{
+ 
+  margin-left: 100px;
+  color: white;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+.education-section .education h2::after{
+      content: "";
+      display: block;
+      height: 3px;
+      background: white;
+      width: 250px;
+      margin: auto;
+      margin-top: 5px;
+}
+
+.education-section .degree{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.education-section .degree h1{
+  font-size: 20px;
+}
+.education-section .degree h3{
+  font-size: 15px;
+}
+.education-section .degree h4{
+  font-size: 10px;
+}
+
+.contact-section {
+  background-color: #080808;
+  padding: 25px 0px;
+}
+.fav{
+  background-color: #080808;
+  padding: 25px 0px;
+}
+.fav i{
+  color: aliceblue;
+}
+
+.fav h3{
+  color: aliceblue;
+}
+.hobb{
+  background-color: #080808;
+  padding: 25px 0px;
+}
+.hobb i{
+  color:aliceblue;
+}
+.hobb h3{
+  color:#8dd618;
+  margin-left: 100px;
+}
+.hobb h1{
+ 
+  margin-left: 100px;
+}
+.hobb p{
+  
+  margin-left: 100px;
+}
+
+.hobb h2{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+.fav h2{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+.contact-section h2{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.fav ul{
+  text-align: center;
+ 
+}
+
+.fav li a{
+  text-align: center;
+ 
+}
+
+.fav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+  
+}
+
+
+.contact-section ul{
+  text-align: center;
+ 
+}
+
+.contact-section ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+  
+}
+
+.contact-section ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: brown;
+  padding: 2px 5px;
+}
+
+.about-section {
+  background-color: #080808;
+  padding: 25px 0px;
+}
+
+.about-section h2 {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+.about-section h4 {
+  font-size: 15px;
+  color: white;
+  margin-left: 10px;
+  /* text-align: center;
+  padding: 10px 0px; */
+}
+
+.about-section p {
+  color: white;
+  text-align: justify;
+  padding: 5px 20px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+.footer-section {
+  width: 100%;
+  height: 40px;
+  background-color: #191a1d;
+}
+
+.footer-section p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
